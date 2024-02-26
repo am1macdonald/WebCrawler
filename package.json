@@ -1,0 +1,23 @@
+{
+  "name": "untitled3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "start:watch": "nodemon main.js",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "@jest/globals": "^29.7.0"
+  }
+}
