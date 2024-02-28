@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "node main.js",
     "start:watch": "nodemon main.js",
@@ -18,6 +17,7 @@
     "nodemon": "^3.1.0"
   },
   "dependencies": {
-    "@jest/globals": "^29.7.0"
+    "@jest/globals": "^29.7.0",
+    "jsdom": "^24.0.0"
   }
 }
